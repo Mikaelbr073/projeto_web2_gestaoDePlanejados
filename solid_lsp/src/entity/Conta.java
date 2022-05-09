@@ -19,6 +19,12 @@ public class Conta {
 		this.saldo = valor + this.saldo;
 	}
 	
+	
+	public void setSaldo(double valor) {
+		this.saldo = valor;
+	}
+	
+	
 	public double getSaldo() {
 		return this.saldo;
 	
