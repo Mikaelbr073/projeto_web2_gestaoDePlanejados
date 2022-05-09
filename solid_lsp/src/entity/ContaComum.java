@@ -12,7 +12,7 @@ public class ContaComum extends Conta {
 	}
 	
 	public void rende() {
-		this.saldo*=1.1;
+		setSaldo(this.saldo*1.1);
 	}
 	
 	
